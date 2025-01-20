@@ -1,0 +1,169 @@
+
+p{
+    margin-top: -15px;
+    color: rgb(85, 83, 83);
+    
+    
+}
+.front{
+    background-color: rgb(205, 238, 238);
+    border: solid rgb(240, 168, 168) 1px;
+    border-radius: 10px;
+}
+.front p{
+    margin-left: 1%;
+    
+}
+.image{
+    float: right;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.front h2{
+    margin-left: 1%;
+    color: rgb(25, 67, 97);
+    font-size:40px;
+}
+.front h3{
+    color: rgb(25, 67, 97);
+    margin-top: 2%;
+}
+.map h1{
+    text-align: left;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: rgb(252, 251, 251);
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+}
+.loca{
+ width: 35px;
+ 
+mix-blend-mode: multiply;
+}
+.exper{
+    mix-blend-mode: multiply;
+    width: 35px;
+   
+   }
+.map h2{
+    color: rgb(39, 103, 135);
+}
+.hos{
+    background-color: rgb(213, 238, 245);
+    border-radius: 10px;
+    border: solid rgb(236, 195, 195) 1px;
+}
+.hos h2{
+    margin-left: 1%;
+    font-size: 30px;
+    color: rgb(25, 67, 97);
+}
+.hos p{
+    margin-left: 1%;
+}
+.emer{
+    float: right;
+    width: 250px;
+    margin-left: 20%;
+}
+p{
+    justify-content: left;
+}
+.footer{
+    
+    margin-top: 15%;
+    background-color: #d62929;
+}
+.bio h1{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 4%;
+    color: white;
+    display: inline-block;
+text-align: left;
+}
+.bio h3{
+    margin-left: 4%;
+color:white;
+
+}
+.bio p{
+    color: white;
+    margin-top: 5%;
+    margin-left: 4%;
+
+}
+.form{
+    display: inline-block;
+    background-color: white;
+    text-align: right;
+    margin-left: 60%;
+    margin-right: 10%;
+    
+    margin-top: -80%;
+    padding: 100px;
+    
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.form:hover{
+    background-color: rgb(249, 248, 248);
+}
+.req{
+    margin-top: 10%;
+    text-align: left;
+    
+}
+.req button{
+    background-color: brown;
+    cursor: pointer;
+}
+.name{
+    
+}
+.email{
+    
+    margin-top: 2%;
+}
+.num{
+    margin-top: 2%;
+}
+@media(max-width:700px){
+    .front h2{
+        font-size: 25px;
+    }
+    .front p{
+        font-size: 12px;
+    }
+    .front h3{
+        font-size: 15px;
+    }
+    .hos h2{
+        font-size: 25px;
+    }
+    .hos p{
+        font-size: 12px;
+    }
+    .emer{
+        mix-blend-mode: multiply;
+        width: 40%;
+    }
+    .bio h1{
+        font-size: 25px;
+    }
+    .bio h3{
+        font-size: 10px;
+    }
+    .bio p{
+        font-size: 10px;
+    }
+    .form{
+        padding: 20px;
+    }
+}
